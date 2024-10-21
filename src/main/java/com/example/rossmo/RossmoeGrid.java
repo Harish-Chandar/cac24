@@ -75,29 +75,17 @@ for (int i = 0; i < gridSize; i++) {
         }
     String[] onlyProbs = returnText.split("[=;]");
     returnText = "";
-    String otherText = "";
     for (int i = 1; i < onlyProbs.length; i+=2){
         returnText += onlyProbs[i] + "; ";
-    }
-    for (int i=0; i < onlyProbs.length; i+=2){
-        otherText += onlyProbs[i-1] + "; ";
     }
     onlyProbs = returnText.split("; ");
     ArrayList<Double> probsOnly = new ArrayList<>();
     for (int i = 0; i < onlyProbs.length; i++){
         probsOnly.add(Double.parseDouble(onlyProbs[i]));
     }
-//    Collections.reverse(probsOnly);
-//    returnText = "" + probsOnly.get(0);
-    double highestProb = probsOnly.get(0);
-    for (int i =0; i < probsOnly.size(); i++){
-        if (probsOnly.get(i) > highestProb){
-            highestProb = probsOnly.get(i);
-        }
-    }
-    int index = probsOnly.indexOf(highestProb);
-    returnText = "" +
+    Collections.reverse(probsOnly);
+    returnText = "" + probsOnly.get(0);
 
-        return returnText;
+    return returnText;
     }
 }
