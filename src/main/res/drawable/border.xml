@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set a transparent background inside the border -->
+    <solid android:color="@android:color/transparent" />
+
+    <!-- Border settings (stroke defines the border) -->
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" /> <!-- Border color -->
+
+    <!-- Optional: Add corner radius to round the edges -->
+    <corners android:radius="7dp"/>
+
+    <!-- Optional: Set padding between the text and the border -->
+    <padding
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp"
+        android:bottom="5dp"/>
+</shape>

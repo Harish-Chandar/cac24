@@ -3,4 +3,8 @@
     <string name="firstCoordinate">X-Coordinate</string>
     <string name="secondCoordinate">Y-Coordinate</string>
     <string name="buttonText">Add Crime Coordinates</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title">C R I M S O N</string>
+    <string name="subtitle">CRIMINAL RADIUS IDENTIFICATION AND MAPPING SYSTEM FOR OPERATIVE NETWORKS</string>
+    <string name="aboutp1">CRIMSON is an implementation of Rossmoe\'s Formula in a pocketable, easy to use app.</string>
 </resources>
